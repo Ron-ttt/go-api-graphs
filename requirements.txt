@@ -1,4 +1,0 @@
-numpy
-scipy==1.5.4
-matplotlib
-control
