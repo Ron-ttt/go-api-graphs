@@ -48,6 +48,6 @@ func main() {
 	handler := corsHandler.Handler(http.DefaultServeMux)
 
 	// Запуск сервера
-	fmt.Println("Server started on http://localhost:8080")
+	fmt.Println("Server started on :8080")
 	log.Fatal(http.ListenAndServe(":8080", handler))
 }
